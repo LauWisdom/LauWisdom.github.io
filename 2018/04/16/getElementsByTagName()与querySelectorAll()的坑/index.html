@@ -79,21 +79,17 @@
 
 
 
-<meta name="description" content="盒子模型  上面是一张盒子模型图，一个盒子模型包括 content（实际内容）、border（边框）、padding（内边距）和 margin（外边距）。 盒子模型有两种，分别是W3C盒子模型和IE盒子模型 。 1. W3C盒子模型W3C定义的盒子模型包括了margin、border、padding、content ，其中元素的 width = content 的宽度，height = conte">
+<meta name="description" content="querySelectorAll()与getElementsByTagName()的一些坑 我们先来一段简单的html代码，用于后面新手对于这两个方法平时比较容易不注意的地方进行解析，代码如下： 1234&amp;lt;body&amp;gt;    &amp;lt;div&amp;gt;a&amp;lt;/div&amp;gt;    &amp;lt;div&amp;gt;b&amp;lt;/div&amp;gt;&amp;lt;/body&amp;gt; 接下来来看一下这两个方法的相关描">
 <meta property="og:type" content="article">
-<meta property="og:title" content="盒子模型">
-<meta property="og:url" content="http://yoursite.com/2018/04/15/盒子模型/index.html">
+<meta property="og:title" content="querySelectorAll()与getElementsByTagName()的一些坑">
+<meta property="og:url" content="http://yoursite.com/2018/04/16/getElementsByTagName()与querySelectorAll()的坑/index.html">
 <meta property="og:site_name" content="LauWisdom">
-<meta property="og:description" content="盒子模型  上面是一张盒子模型图，一个盒子模型包括 content（实际内容）、border（边框）、padding（内边距）和 margin（外边距）。 盒子模型有两种，分别是W3C盒子模型和IE盒子模型 。 1. W3C盒子模型W3C定义的盒子模型包括了margin、border、padding、content ，其中元素的 width = content 的宽度，height = conte">
+<meta property="og:description" content="querySelectorAll()与getElementsByTagName()的一些坑 我们先来一段简单的html代码，用于后面新手对于这两个方法平时比较容易不注意的地方进行解析，代码如下： 1234&amp;lt;body&amp;gt;    &amp;lt;div&amp;gt;a&amp;lt;/div&amp;gt;    &amp;lt;div&amp;gt;b&amp;lt;/div&amp;gt;&amp;lt;/body&amp;gt; 接下来来看一下这两个方法的相关描">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/04/15/盒子模型/4792860-4c293beaf206f605.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/15/盒子模型/1523506936(1).jpg">
-<meta property="og:image" content="http://yoursite.com/2018/04/15/盒子模型/1523506797(1).jpg">
-<meta property="og:updated_time" content="2018-04-15T04:42:11.204Z">
+<meta property="og:updated_time" content="2018-04-15T16:52:49.939Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="盒子模型">
-<meta name="twitter:description" content="盒子模型  上面是一张盒子模型图，一个盒子模型包括 content（实际内容）、border（边框）、padding（内边距）和 margin（外边距）。 盒子模型有两种，分别是W3C盒子模型和IE盒子模型 。 1. W3C盒子模型W3C定义的盒子模型包括了margin、border、padding、content ，其中元素的 width = content 的宽度，height = conte">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/15/盒子模型/4792860-4c293beaf206f605.png">
+<meta name="twitter:title" content="querySelectorAll()与getElementsByTagName()的一些坑">
+<meta name="twitter:description" content="querySelectorAll()与getElementsByTagName()的一些坑 我们先来一段简单的html代码，用于后面新手对于这两个方法平时比较容易不注意的地方进行解析，代码如下： 1234&amp;lt;body&amp;gt;    &amp;lt;div&amp;gt;a&amp;lt;/div&amp;gt;    &amp;lt;div&amp;gt;b&amp;lt;/div&amp;gt;&amp;lt;/body&amp;gt; 接下来来看一下这两个方法的相关描">
 
 
 
@@ -123,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/15/盒子模型/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/16/getElementsByTagName()与querySelectorAll()的坑/"/>
 
 
 
 
 
-  <title>盒子模型 | LauWisdom</title>
+  <title>querySelectorAll()与getElementsByTagName()的一些坑 | LauWisdom</title>
   
 
 
@@ -256,7 +252,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/15/盒子模型/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/16/getElementsByTagName()与querySelectorAll()的坑/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LauWisdom">
@@ -273,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">盒子模型</h1>
+          <h1 class="post-title" itemprop="name headline">querySelectorAll()与getElementsByTagName()的一些坑</h1>
         
 
         <div class="post-meta">
@@ -285,8 +281,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-15T12:36:14+08:00">
-                2018-04-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-16T00:51:50+08:00">
+                2018-04-16
               </time>
             
 
@@ -308,8 +304,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/CSS/" itemprop="url" rel="index">
-                    <span itemprop="name">CSS</span>
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
                   </a>
                 </span>
 
@@ -339,7 +335,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  403
+                  875
                 </span>
               
 
@@ -355,7 +351,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  4
                 </span>
               
             </div>
@@ -376,24 +372,28 @@
       
 
       
-        <h2 id="盒子模型"><a href="#盒子模型" class="headerlink" title="盒子模型"></a>盒子模型</h2><hr>
-<p><img src="/2018/04/15/盒子模型/4792860-4c293beaf206f605.png"></p>
-<p>上面是一张盒子模型图，一个盒子模型包括 content（实际内容）、border（边框）、padding（内边距）和 margin（外边距）。</p>
-<p>盒子模型有两种，分别是<strong>W3C盒子模型</strong>和<strong>IE盒子模型</strong> 。</p>
-<h4 id="1-W3C盒子模型"><a href="#1-W3C盒子模型" class="headerlink" title="1. W3C盒子模型"></a>1. W3C盒子模型</h4><p>W3C定义的盒子模型包括了margin、border、padding、content ，其中元素的 width = content 的宽度，height = content 的高度。</p>
-<h4 id="2-IE盒子模型"><a href="#2-IE盒子模型" class="headerlink" title="2. IE盒子模型"></a>2. IE盒子模型</h4><p>IE盒子模型与W3C的盒子模型唯一区别就是元素的宽度，IE盒子模型元素的 width = content + padding + border，而height = content + padding + border 。</p>
+        <h2 id="querySelectorAll-与getElementsByTagName-的一些坑"><a href="#querySelectorAll-与getElementsByTagName-的一些坑" class="headerlink" title="querySelectorAll()与getElementsByTagName()的一些坑"></a>querySelectorAll()与getElementsByTagName()的一些坑</h2><hr>
+<p>我们先来一段简单的html代码，用于后面新手对于这两个方法平时比较容易不注意的地方进行解析，代码如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span>a<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span>b<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>接下来来看一下这两个方法的相关描述：</p>
+<p>querySelectorAll()：接收一个CSS选择符，返回所有匹配的元素。该方法返回的是一个<code>NodeList</code>的实例。具体来说，返回的值实际上是带有所有属性和方法的NodeList，而其底层实现则类似于一组元素的快照，而非不断对文档进行搜索的动态查询。</p>
+<p>getElementsByTagName()：该方法接收一个参数，即要取得元素的标签名，而返回的是包含零或多个元素的<code>NodeList</code>。在HTML文档中，该方法会返回一个<code>HTMLCollection</code>对象，作为一个“动态”集合，该对象与<code>NodeList</code>非常类似。</p>
+<p>从上面两段文字的描述，可以知道，<code>querySelectorAll()</code>方法返回的是一个静态的NodeList。因此，DOM结构的变化不会反映在该方法返回的<code>NodeList</code>中。从以下代码可以得到这个结论：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> divList = <span class="built_in">document</span>.querySelectorAll(<span class="string">"div"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(divList.length);         <span class="comment">//2</span></span><br><span class="line"><span class="keyword">var</span> div = <span class="built_in">document</span>.createElement(<span class="string">"div"</span>);</span><br><span class="line"><span class="built_in">document</span>.body.appendChild(div);</span><br><span class="line"><span class="built_in">console</span>.log(divList.length);         <span class="comment">//2</span></span><br></pre></td></tr></table></figure>
+<p>在这段代码中，文档中添加了一个div元素，但<code>divList.length</code>前后没有变化，这就说明了<code>querySelectorAll()</code>方法返回的是一个静态的<code>NodeList</code>。</p>
+<p>接下来我们来看看<code>getElementsByTagName()</code>与<code>querySelectorAll()</code>有什么不同，请看下列代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> divList = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"div"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(divList.length);         <span class="comment">//2</span></span><br><span class="line"><span class="keyword">var</span> div = <span class="built_in">document</span>.createElement(<span class="string">"div"</span>);</span><br><span class="line"><span class="built_in">document</span>.body.appendChild(div);</span><br><span class="line"><span class="built_in">console</span>.log(divList.length);         <span class="comment">//3</span></span><br></pre></td></tr></table></figure>
+<p>从上面这段代码可以看到，文档中添加了一个div元素后，<code>divList.length</code>发生了变化，这是因为<code>getElementsByTagName()</code>并不像<code>querySelectorAll()</code>那样返回一个静态的<code>NodeList</code>，它返回的是一个“动态”的，DOM结构的变化会反映在该方法返回的NodeList中。很多新手在写代码的时候往往会忽略了这一点，比如我。于是写下这个笔记来加深对这两个方法的印象。另外，像<code>getElementsByName()</code>的情况和<code>getElementsByTagName()</code>一样。</p>
 <hr>
-<p>在我的理解中，W3C定义盒子模型与IE定义的盒子模型，IE定义的比较合理，因为一个盒子就应该包括 content、padding 和 border ，现实中的盒子也是如此。因此W3C也意识到这个问题，在CSS3中新增了一个新的样式：box-sizing，包含3个属性，分别是 content-box、border-box 和 inherit 。</p>
-<p>其中inherit属性不多加解析，就是继承父元素该样式的属性。下面来说说 content-box 和 border-box 。</p>
-<h4 id="1-context-box"><a href="#1-context-box" class="headerlink" title="1. context-box"></a>1. context-box</h4><p>请看如下css样式和其对应的盒子模型：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.test</span>&#123;  </span><br><span class="line">    <span class="attribute">box-sizing</span>:content-box;  </span><br><span class="line">    <span class="attribute">width</span>:<span class="number">200px</span>;  </span><br><span class="line">    <span class="attribute">padding</span>:<span class="number">10px</span>;  </span><br><span class="line">    <span class="attribute">border</span>:<span class="number">15px</span> solid <span class="number">#eee</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/04/15/盒子模型/1523506936(1).jpg"></p>
-<p>如图所示，<strong>content-box</strong>元素的 width = content + padding + border 。其中样式定义的 width 是 content 的宽度。</p>
-<p>####2. border-box </p>
-<p>请看如下css样式和其对应的盒子模型：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.test&#123;  </span><br><span class="line">    box-sizing:border-box;  </span><br><span class="line">    width:200px;  </span><br><span class="line">    padding:10px;  </span><br><span class="line">    border:15px solid #eee;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/2018/04/15/盒子模型/1523506797(1).jpg"></p>
-<p>如图所示，<strong>border-box</strong>元素的 width = width，content的宽度和高度由样式定义的 width、border 和 padding 决定，即content = width - border - padding 。</p>
+<p>接下来还有一个关于<code>querySelectorAll()</code>的一个坑，请看下面这段html代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">"outside"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"my-id"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">"inside"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"lonely"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"outer"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"inner"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>然后接下来看看下面两个JavaScript语句：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="built_in">document</span>.querySelectorAll(<span class="string">"#my-id div div"</span>);</span><br><span class="line"><span class="keyword">var</span> b = <span class="built_in">document</span>.querySelector(<span class="string">"#my-id"</span>).querySelectorAll(<span class="string">"div div"</span>);</span><br><span class="line"><span class="built_in">console</span>.log(a.length);          <span class="comment">//1</span></span><br><span class="line"><span class="built_in">console</span>.log(b.length);          <span class="comment">//3</span></span><br></pre></td></tr></table></figure>
+<p>很多人会以为1、2行代码的结果应该是一样的，但3、4行的结果却让人大跌眼镜。为什么会这样子呢？</p>
+<p>第一行代码就不解释了，接下来主要解释第二行代码：</p>
+<p>整个网页，包括父级，只要是满足<code>div div</code>父子关系的元素，全部会被选中。这里的<code>querySelectorAll</code>里面的选择器同样是全局特性。<code>document.querySelector(&quot;#my-id&quot;).querySelectorAll(&quot;div div&quot;)</code>翻译成白话文就是：查询<code>#my-id</code>的子元素，同时满足<strong>整个页面下</strong><code>div div</code>选择器条件的DOM元素们。</p>
+<p>我们页面往上滚动看看原始的HTML结构，会发现，在全局视野下，<code>div.lonely</code>, <code>div.outer</code>, <code>div.inner</code>全部都满足<code>div div</code>这个选择器条件，于是，最终返回的长度为3。</p>
+<p>（第二个坑主要是摘自<a href="http://www.zhangxinxu.com/wordpress/2015/11/know-dom-queryselectorall/" target="_blank" rel="noopener">http://www.zhangxinxu.com/wordpress/2015/11/know-dom-queryselectorall/</a>）</p>
 
       
     </div>
@@ -418,8 +418,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/08/递归/" rel="next" title="递归">
-                <i class="fa fa-chevron-left"></i> 递归
+              <a href="/2018/04/15/消除div嵌套img底部空白/" rel="next" title="消除div嵌套img底部空白">
+                <i class="fa fa-chevron-left"></i> 消除div嵌套img底部空白
               </a>
             
           </div>
@@ -427,10 +427,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/15/消除div嵌套img底部空白/" rel="prev" title="消除div嵌套img底部空白">
-                消除div嵌套img底部空白 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -553,7 +549,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#盒子模型"><span class="nav-number">1.</span> <span class="nav-text">盒子模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-W3C盒子模型"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. W3C盒子模型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-IE盒子模型"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. IE盒子模型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-context-box"><span class="nav-number">1.0.3.</span> <span class="nav-text">1. context-box</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#querySelectorAll-与getElementsByTagName-的一些坑"><span class="nav-number">1.</span> <span class="nav-text">querySelectorAll()与getElementsByTagName()的一些坑</span></a></li></ol></div>
             
 
           </div>

@@ -79,19 +79,17 @@
 
 
 
-<meta name="description" content="消除div嵌套img底部空白 先来解释一下为什么div嵌套img时，img底部会由一个空白的地方。图片 img 的 display 属性的默认值是 inline，而在CSS中，对于 display:inline 元素的 vertical-align 默认值是 baseline。 对于vertical-align的这个属性，知识点比较多，这里就用一张图简单解释一下它的几个常用值：top、middle">
+<meta name="description" content="toJSON() 在《JavaScript高级程序设计》这本书中，有一段关于JSON内容的描述如下：  可以让toJSON()方法返回任何值，它都能正常工作。比如，可以让这个方法返回undefined，此时如果包含它的对象嵌入在另一个对象中，会导致它的值变成null，而如果它是顶级对象，结果就是undefined。  所以接下来，主要还是针对这句话来写一下自己的理解和发现的东西。 首先我们知道，可">
 <meta property="og:type" content="article">
-<meta property="og:title" content="消除div嵌套img底部空白">
-<meta property="og:url" content="http://yoursite.com/2018/04/15/消除div嵌套img底部空白/index.html">
+<meta property="og:title" content="toJSON()">
+<meta property="og:url" content="http://yoursite.com/2018/04/23/toJSON()/index.html">
 <meta property="og:site_name" content="LauWisdom">
-<meta property="og:description" content="消除div嵌套img底部空白 先来解释一下为什么div嵌套img时，img底部会由一个空白的地方。图片 img 的 display 属性的默认值是 inline，而在CSS中，对于 display:inline 元素的 vertical-align 默认值是 baseline。 对于vertical-align的这个属性，知识点比较多，这里就用一张图简单解释一下它的几个常用值：top、middle">
+<meta property="og:description" content="toJSON() 在《JavaScript高级程序设计》这本书中，有一段关于JSON内容的描述如下：  可以让toJSON()方法返回任何值，它都能正常工作。比如，可以让这个方法返回undefined，此时如果包含它的对象嵌入在另一个对象中，会导致它的值变成null，而如果它是顶级对象，结果就是undefined。  所以接下来，主要还是针对这句话来写一下自己的理解和发现的东西。 首先我们知道，可">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/04/15/消除div嵌套img底部空白/base_line.jpg">
-<meta property="og:updated_time" content="2018-04-15T04:41:48.421Z">
+<meta property="og:updated_time" content="2018-04-22T16:57:43.952Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="消除div嵌套img底部空白">
-<meta name="twitter:description" content="消除div嵌套img底部空白 先来解释一下为什么div嵌套img时，img底部会由一个空白的地方。图片 img 的 display 属性的默认值是 inline，而在CSS中，对于 display:inline 元素的 vertical-align 默认值是 baseline。 对于vertical-align的这个属性，知识点比较多，这里就用一张图简单解释一下它的几个常用值：top、middle">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/15/消除div嵌套img底部空白/base_line.jpg">
+<meta name="twitter:title" content="toJSON()">
+<meta name="twitter:description" content="toJSON() 在《JavaScript高级程序设计》这本书中，有一段关于JSON内容的描述如下：  可以让toJSON()方法返回任何值，它都能正常工作。比如，可以让这个方法返回undefined，此时如果包含它的对象嵌入在另一个对象中，会导致它的值变成null，而如果它是顶级对象，结果就是undefined。  所以接下来，主要还是针对这句话来写一下自己的理解和发现的东西。 首先我们知道，可">
 
 
 
@@ -121,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/15/消除div嵌套img底部空白/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/23/toJSON()/"/>
 
 
 
 
 
-  <title>消除div嵌套img底部空白 | LauWisdom</title>
+  <title>toJSON() | LauWisdom</title>
   
 
 
@@ -254,7 +252,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/15/消除div嵌套img底部空白/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/23/toJSON()/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LauWisdom">
@@ -271,7 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">消除div嵌套img底部空白</h1>
+          <h1 class="post-title" itemprop="name headline">toJSON()</h1>
         
 
         <div class="post-meta">
@@ -283,8 +281,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-15T12:36:14+08:00">
-                2018-04-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-23T00:54:35+08:00">
+                2018-04-23
               </time>
             
 
@@ -306,8 +304,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/CSS/" itemprop="url" rel="index">
-                    <span itemprop="name">CSS</span>
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
                   </a>
                 </span>
 
@@ -337,7 +335,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  559
+                  844
                 </span>
               
 
@@ -353,7 +351,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -374,28 +372,25 @@
       
 
       
-        <h2 id="消除div嵌套img底部空白"><a href="#消除div嵌套img底部空白" class="headerlink" title="消除div嵌套img底部空白"></a>消除div嵌套img底部空白</h2><hr>
-<p>先来解释一下为什么div嵌套img时，img底部会由一个空白的地方。图片 img 的 display 属性的默认值是 inline，而在CSS中，对于 display:inline 元素的 vertical-align 默认值是 baseline。</p>
-<p>对于vertical-align的这个属性，知识点比较多，这里就用一张图简单解释一下它的几个常用值：top、middle、baseline 和 bottom。</p>
-<p><img src="/2018/04/15/消除div嵌套img底部空白/base_line.jpg"></p>
-<p>从这张图可以看出，图片img下边出现的空白行，就是基线（baseline）和底线（bottomline）之间这段距离。即使只有图片没有文字，只要是 inline 的图片这段空白都会存在。也就是说，因为垂直对齐的方式导致了空白行的出现。</p>
-<hr>
-<p>消除这段空白，由下列几种方法：</p>
-<p>方法一：修改 img 的 vertical-align 属性</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span> &#123;</span><br><span class="line">    vertical-align: top/middle/bottom; //如果在同一行里有文字混排，那应该用 bottom 或是 middle 比较好。</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>从上面的解析中就知道，去掉这段空白，最直接的办法是将图片的 vertical-align 设置为其他值。</p>
-<p>方法二：修改 img 的 display 属性</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>vertical-align 仅仅对行内元素有效，对块级元素无效。因此把 img 的 display 属性设置为 block，就没有垂直对齐所言了。</p>
-<p>方法三：修改 div 的 font-size 属性</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">div</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>上面说到，空白行的出现是垂直对齐的方式导致的，将父元素的 font-size 设置为0，就没有垂直对齐所言了。</p>
-<p>方法四：修改 div 的 line-height 属性</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">div</span> &#123;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>原理跟方法三一样，将父元素的 line-height 设置为0，就没有垂直对齐所言了。</p>
-<p>方法五：将 img 底部的margin值改为负值</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span> &#123;</span><br><span class="line">    margin-bottom: -4px;  //负值</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个 margin-bottom 的值取多少要是实际情况来决定。如果该值的绝对值过大，那就会导致 img 之后的元素会被动上移，且会藏在 img 标签的下面。甚至一不小心就很容易把 img 后面的内容网上移得太多，导致内容显示不全。因此不推荐使用这种方法。</p>
+        <h2 id="toJSON"><a href="#toJSON" class="headerlink" title="toJSON()"></a>toJSON()</h2><hr>
+<p>在《JavaScript高级程序设计》这本书中，有一段关于JSON内容的描述如下：</p>
+<blockquote>
+<p>可以让<code>toJSON()</code>方法返回任何值，它都能正常工作。比如，可以让这个方法返回<code>undefined</code>，此时如果包含它的对象嵌入在另一个对象中，会导致它的值变成<code>null</code>，而如果它是顶级对象，结果就是<code>undefined</code>。</p>
+</blockquote>
+<p>所以接下来，主要还是针对这句话来写一下自己的理解和发现的东西。</p>
+<p>首先我们知道，可以在<code>JSON</code>中表示字符串、数值、布尔值和<code>null</code>。但<code>JSON</code>不支持<code>javaScript</code>中的特殊值<code>undefined</code>。在序列化<code>Javascript</code>对象的时候（使用<code>JSON.striptify()</code>），所有函数及原型成员都会被有意忽略，不体现在结果中。此外，值为<code>undefined</code>的任何属性也都会被跳过。（这点很重要！！！要记住！！）</p>
+<p>所以当我阅读到这段描述的时候，自己编写了一段符合它描述的代码，代码如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> student = &#123;</span><br><span class="line">	name : <span class="string">"lcz"</span>,</span><br><span class="line">	age : <span class="number">21</span>,</span><br><span class="line">	a : <span class="literal">undefined</span>,</span><br><span class="line">	<span class="string">"school"</span> : &#123;</span><br><span class="line">		<span class="string">"name"</span>: <span class="string">"GDUT"</span>,</span><br><span class="line">		<span class="string">"location"</span> : <span class="string">"gz"</span>,</span><br><span class="line">		toJSON : <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">undefined</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> student1 = <span class="built_in">JSON</span>.stringify(student);</span><br><span class="line"><span class="built_in">console</span>.log(student1);   <span class="comment">//"&#123;"name":"lcz","age":21&#125;"</span></span><br></pre></td></tr></table></figure>
+<p>在我写的这段代码中，<code>student</code>对象中包含着一个<code>school</code>属性，而<code>school</code>属性也是一个对象。也就是说，<code>student</code>对象中嵌套着一个<code>school</code>对象。按照那段描述，<code>&quot;school&quot;</code>的值应该是<code>null</code>，但奇怪的是，最后的输出结果里面却没有包含<code>&quot;school : null&quot;</code>（没显示<code>school</code>）,也就是说，<code>&quot;school&quot;</code>的值为<code>undefined</code>而不是那段描述所说的<code>null</code>。这就让我蒙圈了，说好的 “让<code>toJSON()</code>返回<code>undefined</code>，此时如果包含它的对象嵌入在另一个对象中，会导致它的值变成<code>null</code>” 呢？</p>
+<p>然后通过搜索资料以及问舍友，发现了另一个奇怪的地方，先来看一段代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = &#123;</span><br><span class="line">	toJSON : <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">undefined</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> b = [<span class="number">1</span>, a];</span><br><span class="line"><span class="keyword">var</span> c = <span class="built_in">JSON</span>.stringify(b);</span><br><span class="line"><span class="built_in">console</span>.log(c);    <span class="comment">//"[1,null]"</span></span><br></pre></td></tr></table></figure>
+<p>在这段代码中，<code>a</code>对象作为<code>b</code>数组的一个元素，从最后结果可以看到最后<code>a</code>的值变成了<code>null</code>，为什么在数组中就会变成<code>null</code>呢？请不要忘了，数组也是一个对象！！一个Array对象！在这里发生的一切却符合了上述描述。但是，问题还没有结束，再来看一段代码。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = [<span class="number">1</span>, <span class="literal">undefined</span>];</span><br><span class="line"><span class="keyword">var</span> b = <span class="built_in">JSON</span>.stringify(a);</span><br><span class="line"><span class="built_in">console</span>.log(b);    <span class="comment">//"[1,null]"</span></span><br></pre></td></tr></table></figure>
+<p>在这里，我直接把<code>undefined</code>值作为数组里的一个元素了，结果发现，序列化之后的结果居然<code>undefined</code>变成了<code>null</code>，也就是说，跟再上一段代码好像没什么区别啊。所以，关于序列化，有一点需要非常注意，也就是：</p>
+<blockquote>
+<p>当值为<code>undefine</code>的函数、变量等作为非数组对象的属性值时，在序列化过程中会被忽略；而出现在数组里面时，就会转换成<code>null</code>。</p>
+</blockquote>
+<p>最后，总结一下，我对那段描述的理解就是可能它描述有误，因为第一段代码的结果并没有如它所示，当然也可能是我理解错了它的意思；而发现就是上面的上面的那句引用了。所以，如果有什么错误的地方，希望可以指出来，一起讨论进行修改，谢谢！</p>
 
       
     </div>
@@ -420,8 +415,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/15/盒子模型/" rel="next" title="盒子模型">
-                <i class="fa fa-chevron-left"></i> 盒子模型
+              <a href="/2018/04/16/getElementsByTagName()与querySelectorAll()的坑/" rel="next" title="querySelectorAll()与getElementsByTagName()的一些坑">
+                <i class="fa fa-chevron-left"></i> querySelectorAll()与getElementsByTagName()的一些坑
               </a>
             
           </div>
@@ -429,10 +424,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/16/getElementsByTagName()与querySelectorAll()的坑/" rel="prev" title="querySelectorAll()与getElementsByTagName()的一些坑">
-                querySelectorAll()与getElementsByTagName()的一些坑 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -555,7 +546,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#消除div嵌套img底部空白"><span class="nav-number">1.</span> <span class="nav-text">消除div嵌套img底部空白</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#toJSON"><span class="nav-number">1.</span> <span class="nav-text">toJSON()</span></a></li></ol></div>
             
 
           </div>
